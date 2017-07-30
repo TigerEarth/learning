@@ -38,7 +38,7 @@
                 android:layout_weight="0.5"
                 android:gravity="center"
                 android:background="@drawable/login_selector"
-                android:text="Log in"
+                android:text="@string/log_in"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF" />
 
@@ -50,7 +50,7 @@
                 android:gravity="center"
                 android:background="@drawable/click_selector"
                 android:textAllCaps="false"
-                android:text="Get Started !"
+                android:text="@string/get_started"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:gravity="center"
             android:paddingTop="8dp"
             android:textColor="#59FFFFFF"
-            android:text="Don't already have a Kuna powered device?"/>
+            android:text="@string/don_t_already_have_a_kuna_powered_device"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -69,7 +69,7 @@
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:textColor="#BFFFFFFF"
-            android:text="You can buy one here"/>
+            android:text="@string/you_can_buy_one_here"/>
     </LinearLayout>
 
 </RelativeLayout>

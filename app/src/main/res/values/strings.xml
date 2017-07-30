@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NewProject</string>
+    <string name="you_can_buy_one_here">You can buy one here</string>
+    <string name="don_t_already_have_a_kuna_powered_device">Don\'t already have a Kuna powered device?</string>
+    <string name="get_started">Get Started !</string>
+    <string name="log_in">Log in</string>
 </resources>

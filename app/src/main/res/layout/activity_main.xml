@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tigerearth.newproject.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_dark"
+        android:tint="#26000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#FFFFFF"
+        android:src="@drawable/logo_app"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="@drawable/login_selector"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="@drawable/click_selector"
+                android:textAllCaps="false"
+                android:text="Get Started !"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:textColor="#59FFFFFF"
+            android:text="Don't already have a Kuna powered device?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="#BFFFFFFF"
+            android:text="You can buy one here"/>
+    </LinearLayout>
+
+</RelativeLayout>

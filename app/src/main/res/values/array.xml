@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="logo_drawable">
+        <item>@drawable/rice</item>
+        <item>@drawable/beer</item>
+        <item>@drawable/hotel</item>
+        <item>@drawable/university</item>
+    </integer-array>
+
+    <string-array name="title_place">
+        <item>ร้านอาหาร</item>
+        <item>สถานบันเทิง</item>
+        <item>ที่พักและโรงแรม</item>
+        <item>สถานศึกษา</item>
+    </string-array>
+</resources>

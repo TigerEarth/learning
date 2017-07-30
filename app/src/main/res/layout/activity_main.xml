@@ -44,6 +44,7 @@
                 android:textColor="#FFFFFF" />
 
             <Button
+                android:id="@+id/get_started"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_margin="8dp"
